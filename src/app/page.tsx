@@ -32,25 +32,15 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Our Story",
-          id: "about",
-        },
+          name: "Our Story",          id: "about"},
         {
-          name: "Menu",
-          id: "menu",
-        },
+          name: "Menu",          id: "menu"},
         {
-          name: "Experience",
-          id: "features",
-        },
+          name: "Experience",          id: "features"},
         {
-          name: "Reservations",
-          id: "contact",
-        },
+          name: "Reservations",          id: "contact"},
       ]}
       brandName="The Wild Fig"
     />
@@ -59,15 +49,12 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Elevated Dining Meets Warm Hospitality"
       description="Discover seasonal menus crafted with fresh, locally sourced ingredients. Whether celebrating a milestone or enjoying an intimate dinner, The Wild Fig delivers an unforgettable culinary experience."
       buttons={[
         {
-          text: "Reserve Your Table",
-          href: "#contact",
-        },
+          text: "Reserve Your Table",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/event-hall-wooden-table-with-rustic-chairs_114579-2233.jpg"
     />
@@ -78,14 +65,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",
-          content: "Our Philosophy",
-        },
+          type: "text",          content: "Our Philosophy"},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/female-chef-uniform-garnishes-dish-with-herbs-leaves-spices_482257-124611.jpg",
-          alt: "Seasonal cooking",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/female-chef-uniform-garnishes-dish-with-herbs-leaves-spices_482257-124611.jpg",          alt: "Seasonal cooking"},
       ]}
     />
   </div>
@@ -97,29 +79,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "f1",
-          title: "Locally Sourced",
-          descriptions: [
-            "Hand-selected ingredients from regional farms.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/vegetables-notepad-template_23-2148006179.jpg",
-        },
+          id: "f1",          title: "Locally Sourced",          descriptions: [
+            "Hand-selected ingredients from regional farms."],
+          imageSrc: "http://img.b2bpic.net/free-photo/vegetables-notepad-template_23-2148006179.jpg"},
         {
-          id: "f2",
-          title: "Expert Service",
-          descriptions: [
-            "Professional hospitality tailored to your needs.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-safari-party-with-dessert-table_23-2149707844.jpg",
-        },
+          id: "f2",          title: "Expert Service",          descriptions: [
+            "Professional hospitality tailored to your needs."],
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-safari-party-with-dessert-table_23-2149707844.jpg"},
         {
-          id: "f3",
-          title: "Elegant Ambiance",
-          descriptions: [
-            "Sophisticated setting for any celebration.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/table-chairs-italian-garden_628469-330.jpg",
-        },
+          id: "f3",          title: "Elegant Ambiance",          descriptions: [
+            "Sophisticated setting for any celebration."],
+          imageSrc: "http://img.b2bpic.net/free-photo/table-chairs-italian-garden_628469-330.jpg"},
       ]}
       title="A Destination Experience"
       description="Excellence in every detail, from farm to table."
@@ -134,59 +104,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          brand: "Appetizer",
-          name: "Heirloom Tomato Tart",
-          price: "$18",
-          rating: 5,
-          reviewCount: "120",
-          imageSrc: "http://img.b2bpic.net/free-photo/meatball-sauce-topped-with-greenery_140725-1813.jpg",
-        },
+          id: "p1",          brand: "Appetizer",          name: "Heirloom Tomato Tart",          price: "R325",          rating: 5,
+          reviewCount: "120",          imageSrc: "http://img.b2bpic.net/free-photo/meatball-sauce-topped-with-greenery_140725-1813.jpg"},
         {
-          id: "p2",
-          brand: "Entree",
-          name: "Pan-Seared Scallops",
-          price: "$34",
-          rating: 5,
-          reviewCount: "95",
-          imageSrc: "http://img.b2bpic.net/free-photo/white-plate-with-originally-served-salad-stands-dark-wooden-t_1304-4651.jpg",
-        },
+          id: "p2",          brand: "Entree",          name: "Pan-Seared Scallops",          price: "R615",          rating: 5,
+          reviewCount: "95",          imageSrc: "http://img.b2bpic.net/free-photo/white-plate-with-originally-served-salad-stands-dark-wooden-t_1304-4651.jpg"},
         {
-          id: "p3",
-          brand: "Dessert",
-          name: "Fig & Honey Pavlova",
-          price: "$14",
-          rating: 5,
-          reviewCount: "67",
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-dessert-chocolate-cake-concept-delicious-dessert_185193-108429.jpg",
-        },
+          id: "p3",          brand: "Dessert",          name: "Fig & Honey Pavlova",          price: "R250",          rating: 5,
+          reviewCount: "67",          imageSrc: "http://img.b2bpic.net/free-photo/tasty-dessert-chocolate-cake-concept-delicious-dessert_185193-108429.jpg"},
         {
-          id: "p4",
-          brand: "Appetizer",
-          name: "Forest Mushroom Soup",
-          price: "$16",
-          rating: 4,
-          reviewCount: "42",
-          imageSrc: "http://img.b2bpic.net/free-photo/raw-fresh-tuna-fish-meat-salad-with-avocado-mango_74190-749.jpg",
-        },
+          id: "p4",          brand: "Appetizer",          name: "Forest Mushroom Soup",          price: "R285",          rating: 4,
+          reviewCount: "42",          imageSrc: "http://img.b2bpic.net/free-photo/raw-fresh-tuna-fish-meat-salad-with-avocado-mango_74190-749.jpg"},
         {
-          id: "p5",
-          brand: "Salad",
-          name: "Wild Fig & Goat Cheese",
-          price: "$20",
-          rating: 5,
-          reviewCount: "88",
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-salmon-served-with-herbs_23-2148516944.jpg",
-        },
+          id: "p5",          brand: "Salad",          name: "Wild Fig & Goat Cheese",          price: "R360",          rating: 5,
+          reviewCount: "88",          imageSrc: "http://img.b2bpic.net/free-photo/delicious-salmon-served-with-herbs_23-2148516944.jpg"},
         {
-          id: "p6",
-          brand: "Main",
-          name: "Herb-Roasted Organic Duck",
-          price: "$38",
-          rating: 5,
-          reviewCount: "104",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-lemon-tart-plate_23-2148519057.jpg",
-        },
+          id: "p6",          brand: "Main",          name: "Herb-Roasted Organic Duck",          price: "R685",          rating: 5,
+          reviewCount: "104",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-lemon-tart-plate_23-2148519057.jpg"},
       ]}
       title="Seasonal Menu"
       description="Artisan dishes inspired by the current harvest."
@@ -200,31 +134,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          value: "15+",
-          title: "Years of Tradition",
-          items: [
-            "Serving excellence",
-            "Legacy established",
-          ],
+          id: "m1",          value: "15+",          title: "Years of Tradition",          items: [
+            "Serving excellence",            "Legacy established"],
         },
         {
-          id: "m2",
-          value: "20",
-          title: "Local Farm Partners",
-          items: [
-            "Sustainable growth",
-            "Direct sourcing",
-          ],
+          id: "m2",          value: "20",          title: "Local Farm Partners",          items: [
+            "Sustainable growth",            "Direct sourcing"],
         },
         {
-          id: "m3",
-          value: "4.9",
-          title: "Guest Rating",
-          items: [
-            "Consistently high",
-            "Loved by locals",
-          ],
+          id: "m3",          value: "4.9",          title: "Guest Rating",          items: [
+            "Consistently high",            "Loved by locals"],
         },
       ]}
       title="Our Culinary Impact"
@@ -237,30 +156,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Elena Ross",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-young-friends-restaurant_23-2148395397.jpg",
-        },
+          id: "t1",          name: "Elena Ross",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-young-friends-restaurant_23-2148395397.jpg"},
         {
-          id: "t2",
-          name: "Marcus Thorne",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-enjoying-her-virtual-date_23-2149307267.jpg",
-        },
+          id: "t2",          name: "Marcus Thorne",          imageSrc: "http://img.b2bpic.net/free-photo/woman-enjoying-her-virtual-date_23-2149307267.jpg"},
         {
-          id: "t3",
-          name: "Sarah Jenkins",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-woman-cafe-woman-drinking-champagne-cafe-talking_1321-4303.jpg",
-        },
+          id: "t3",          name: "Sarah Jenkins",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-woman-cafe-woman-drinking-champagne-cafe-talking_1321-4303.jpg"},
         {
-          id: "t4",
-          name: "David Wu",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-enjoying-party-holding-wine-glass_23-2148037558.jpg",
-        },
+          id: "t4",          name: "David Wu",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-enjoying-party-holding-wine-glass_23-2148037558.jpg"},
         {
-          id: "t5",
-          name: "Clara Bennett",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-pretty-waitress_1098-15705.jpg",
-        },
+          id: "t5",          name: "Clara Bennett",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-pretty-waitress_1098-15705.jpg"},
       ]}
       cardTitle="Guest Reflections"
       cardTag="Testimonials"
@@ -274,20 +178,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "q1",
-          title: "Do you accept reservations?",
-          content: "Yes, we highly recommend booking in advance via our website.",
-        },
+          id: "q1",          title: "Do you accept reservations?",          content: "Yes, we highly recommend booking in advance via our website."},
         {
-          id: "q2",
-          title: "Is parking available?",
-          content: "Complimentary valet service is available every evening.",
-        },
+          id: "q2",          title: "Is parking available?",          content: "Complimentary valet service is available every evening."},
         {
-          id: "q3",
-          title: "Do you cater to dietary restrictions?",
-          content: "Absolutely. Please inform us of any allergies when booking.",
-        },
+          id: "q3",          title: "Do you cater to dietary restrictions?",          content: "Absolutely. Please inform us of any allergies when booking."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/two-men-cafe_23-2147775893.jpg"
       mediaAnimation="slide-up"
@@ -304,28 +199,17 @@ export default function LandingPage() {
       description="Join us for an unforgettable dining experience."
       inputs={[
         {
-          name: "name",
-          type: "text",
-          placeholder: "Full Name",
-          required: true,
+          name: "name",          type: "text",          placeholder: "Full Name",          required: true,
         },
         {
-          name: "date",
-          type: "date",
-          placeholder: "Date",
-          required: true,
+          name: "date",          type: "date",          placeholder: "Date",          required: true,
         },
         {
-          name: "guests",
-          type: "number",
-          placeholder: "Number of Guests",
-          required: true,
+          name: "guests",          type: "number",          placeholder: "Number of Guests",          required: true,
         },
       ]}
       textarea={{
-        name: "notes",
-        placeholder: "Special occasions or dietary needs?",
-      }}
+        name: "notes",        placeholder: "Special occasions or dietary needs?"}}
       imageSrc="http://img.b2bpic.net/free-photo/city-background-panoramic-view_23-2148892901.jpg"
     />
   </div>
@@ -334,38 +218,25 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Visit",
-          items: [
+          title: "Visit",          items: [
             {
-              label: "123 Gourmet Lane",
-              href: "#",
-            },
+              label: "123 Gourmet Lane",              href: "#"},
             {
-              label: "City Center",
-              href: "#",
-            },
+              label: "City Center",              href: "#"},
           ],
         },
         {
-          title: "Connect",
-          items: [
+          title: "Connect",          items: [
             {
-              label: "Instagram",
-              href: "#",
-            },
+              label: "Instagram",              href: "#"},
             {
-              label: "Facebook",
-              href: "#",
-            },
+              label: "Facebook",              href: "#"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
           ],
         },
       ]}
