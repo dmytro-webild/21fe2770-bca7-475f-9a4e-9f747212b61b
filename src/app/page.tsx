@@ -196,7 +196,7 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={false}
       title="Reserve Your Table"
-      description="Join us for an unforgettable dining experience."
+      description="Join us for an unforgettable dining experience at 123 Gourmet Lane, City Center."
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Full Name",          required: true,
